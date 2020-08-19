@@ -1,0 +1,170 @@
+Start test session: ExcelTestsTestSuite
+
+Start test case: Activate worksheets by name/ index, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:54 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can activate worksheets by name/ index, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test2 is selected., as expected
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+
+Start test case: Get active worksheets names, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I should get active workheet name, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Actual value: Test1 matches Expected Value Test1 , as expected
+
+Start test case: Get all excel cell formula, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get all excel cell formula, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Cell formula: =A3/A2, as expected
+
+Start test case: Get all excel cell properties, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get all excel cell properties, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: RiskRegisterWithScope is selected., as expected
+Info: 8/19/2020 6:27:56 PM - Cell formula: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell value: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell BackGroundColor: ffffff, as expected
+Info: 8/19/2020 6:27:56 PM - Cell FontColor: 0, as expected
+Info: 8/19/2020 6:27:56 PM - Cell FontSize: 9, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Font Name: Arial, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Formula: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Text: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Font bold: False, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Font Italic: False, as expected
+Info: 8/19/2020 6:27:56 PM - Cell formula: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell value: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell BackGroundColor: ffffff, as expected
+Info: 8/19/2020 6:27:56 PM - Cell FontColor: 0, as expected
+Info: 8/19/2020 6:27:56 PM - Cell FontSize: 9, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Font Name: Arial, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Formula: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Text: 4, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Font bold: False, as expected
+Info: 8/19/2020 6:27:56 PM - Cell Font Italic: False, as expected
+
+Start test case: Get All worksheets names, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:56 PM
+Info: 8/19/2020 6:27:56 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I should get all workheet names, 8/19/2020 6:27:56 PM
+Warning: 8/19/2020 6:27:56 PM - This step has not been performed.
+
+Start test case: Get excel cell background color, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:57 PM
+Info: 8/19/2020 6:27:57 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get excel cell background color, 8/19/2020 6:27:57 PM
+Warning: 8/19/2020 6:27:57 PM - This step has not been performed.
+
+Start test case: Get excel cell font bold property, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:27:57 PM
+Info: 8/19/2020 6:27:57 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get all excel cell bold property, 8/19/2020 6:27:57 PM
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Font type set to bold, as expected
+Info: 8/19/2020 6:28:01 PM - Workbook: TestExcel.xlsx is closed., as expected
+
+Start test case: Get excel cell font color, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:28:01 PM
+Info: 8/19/2020 6:28:01 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get all excel cell font color, 8/19/2020 6:28:01 PM
+Info: 8/19/2020 6:28:01 PM - Workbook: TestExcel.xlsx is closed., as expected
+
+Start test case: Read excel cell values, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:28:01 PM
+Info: 8/19/2020 6:28:01 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can read excel cell values of different format, 8/19/2020 6:28:01 PM
+Info: 8/19/2020 6:28:01 PM - Cell value: A, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: A, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: A, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: 2.001, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: 5, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: ABC, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: XYZ, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: ₹ 23.75, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: 12/15/2019, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: December 15, 2019, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: 8:52:48 AM, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: 76.90%, as expected
+Info: 8/19/2020 6:28:01 PM - Cell value: , as expected
+
+Start test case: Read excel range as list, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:28:01 PM
+Info: 8/19/2020 6:28:01 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get excel range as list, 8/19/2020 6:28:01 PM
+Info: 8/19/2020 6:28:01 PM - Cell value: A, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: 2.001, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: 5, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: ABC, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: XYZ, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: 2.498750625, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: ₹ 23.75, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: 12/15/2019, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: December 15, 2019, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: 8:52:48 AM, as expected
+Info: 8/19/2020 6:28:02 PM - Cell value: 76.90%, as expected
+
+Start test case: Read excel range co-ordinates, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:28:02 PM
+Info: 8/19/2020 6:28:02 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can get excel range co-ordinates, 8/19/2020 6:28:02 PM
+Warning: 8/19/2020 6:28:02 PM - This step has not been performed.
+
+Start test case: Set excel cell border, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:28:02 PM
+Info: 8/19/2020 6:28:02 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can set excel cell border, 8/19/2020 6:28:02 PM
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is closed., as expected
+
+Start test case: Write to excel, , Test collection: ExcelTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I have valid workbook, 8/19/2020 6:28:02 PM
+Info: 8/19/2020 6:28:02 PM - Workshhet: Test1 is selected., as expected
+Execute test step: Then  I can write to excel, 8/19/2020 6:28:02 PM
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is saved., as expected
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is saved., as expected
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is saved., as expected
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is saved., as expected
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is saved., as expected
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is saved., as expected
+Info: 8/19/2020 6:28:02 PM - Workbook: TestExcel.xlsx is closed., as expected

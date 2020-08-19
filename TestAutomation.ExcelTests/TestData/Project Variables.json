@@ -1,0 +1,49 @@
+{
+  "Browser": "chrome",
+  //Environment: qa/ rc/ iat
+  "Environment": "qa",
+  "ExecuteRemotely": "No",
+  "EnableDefectLogging": false,
+
+  "UpdateAzureTests": false, // Mark true only when require to execute automated scripts on Azure DevOps.
+  "ProjectTeamName": "Risk.Analytics", // "CFT", "AS.Projects"
+  "AzureTestPlanId": "14816", // Replace with Test Plan Id
+  "AzureTestSuiteId": "38730", // Replace with Suite Id
+
+  // Environments
+  // QA
+  "ApplicationURLExcelTests": "",
+
+  //RC
+  "ApplicationURLExcelTestsRC": "",
+
+  //IAT
+  "ApplicationURLExcelTestsIAT": "",
+
+  // Prod
+  "ApplicationURLExcelTestsPROD": "",
+
+  // Timeout
+  "DefaultTimeout": 30,
+
+  // API URLs
+  //QA - API
+  "ApiBaseUrlExcelTests": "",
+
+  //RC - API
+  "ApiBaseUrlExcelTestsRC": "",
+
+
+  //IAT - API
+  "ApiBaseUrlExcelTestsIAT": "",
+
+  //PROD - API
+  "ApiBaseUrlExcelTestsPROD": "",
+
+  //Auth URLs
+  "AuthURLExcelTests": "",
+
+  //API Resources
+  "ApiResourceUrl": ""
+
+}

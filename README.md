@@ -7,14 +7,19 @@ Install-Package Test.Automation.Framework -Version 1.0.0.5
 
 ### Features
 All excel operation are handled using Excel.Interop, no third party references
- 1. Execute Macros
- 2. Excel Operations
+ #### Execute Macros
+ #### Excel Operations
  ▪ Get ActiveSheet name	
-	▪ Get All worksheet names	
-	▪ Activate worksheet by name/ index	
-	▪ Read Excel Range/ Cell values	
-	▪ Get Range Co-ordinates	
-	▪ Get and Set Excel Range/ Cell properties
+ 
+ ▪ Get All worksheet names
+ 
+ ▪ Activate worksheet by name/ index
+ 
+ ▪ Read Excel Range/ Cell values	
+ 
+ ▪ Get Range Co-ordinates	
+ 
+ ▪ Get and Set Excel Range/ Cell properties
  
         ▪ Font
 
@@ -29,13 +34,13 @@ All excel operation are handled using Excel.Interop, no third party references
         ▪ Text
 
         ▪ Cell Border Properties	  
-	▪ Write to Excel Range/ Cell
+ ▪ Write to Excel Range/ Cell
 	
-	▪ Read Excel Charts
+ ▪ Read Excel Charts
+
+ ▪ Verify C# lists against Excel Ranges
 	
-	▪ Verify C# lists against Excel Ranges
-	
-	▪ All Excel Formats supported without need to convert
+ ▪ All Excel Formats supported without need to convert
  
         ▪ General
 

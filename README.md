@@ -1,5 +1,4 @@
-# Excel-Tests
-# Selenium-C#-Specflow-Excel-Tests
+# <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/Excel_small.png" alt="Selenium C# PDF">Selenium-C#-Specflow-Excel
 Excel Tests using C# and Specflow
 
 ### Usage

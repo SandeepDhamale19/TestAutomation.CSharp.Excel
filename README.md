@@ -9,52 +9,52 @@ Install-Package Test.Automation.Framework -Version 1.0.0.5
 All excel operation are handled using Excel.Interop, no third party references
  #### Execute Macros
  #### Excel Operations
- ▪ Get ActiveSheet name	
- 
- ▪ Get All worksheet names
- 
- ▪ Activate worksheet by name/ index
- 
- ▪ Read Excel Range/ Cell values	
- 
- ▪ Get Range Co-ordinates	
- 
- ▪ Get and Set Excel Range/ Cell properties
- 
-        ▪ Font
+	 ▪ Get ActiveSheet name	
 
-        ▪ Font size
+	 ▪ Get All worksheet names
 
-        ▪ Range/ Cell background color
+	 ▪ Activate worksheet by name/ index
 
-        ▪ Range/ Cell Font color
+	 ▪ Read Excel Range/ Cell values	
 
-        ▪ Formula
+	 ▪ Get Range Co-ordinates	
 
-        ▪ Text
+	 ▪ Get and Set Excel Range/ Cell properties
 
-        ▪ Cell Border Properties	  
- ▪ Write to Excel Range/ Cell
-	
- ▪ Read Excel Charts
+		▪ Font
 
- ▪ Verify C# lists against Excel Ranges
-	
- ▪ All Excel Formats supported without need to convert
- 
-        ▪ General
+		▪ Font size
 
-        ▪ Text
+		▪ Range/ Cell background color
 
-        ▪ Number
+		▪ Range/ Cell Font color
 
-        ▪ Date
+		▪ Formula
 
-        ▪ DateTime
+		▪ Text
 
-        ▪ Percentage
+		▪ Cell Border Properties	  
+	 ▪ Write to Excel Range/ Cell
 
-        ▪ Currency
+	 ▪ Read Excel Charts
+
+	 ▪ Verify C# lists against Excel Ranges
+
+	 ▪ All Excel Formats supported without need to convert
+
+		▪ General
+
+		▪ Text
+
+		▪ Number
+
+		▪ Date
+
+		▪ DateTime
+
+		▪ Percentage
+
+		▪ Currency
 
 ### Interesting stuff: Scenario execution [HTML Reports](https://github.com/SandeepDhamale19/Excel-Tests/tree/master/TestAutomation.ExcelTests/Results)
 ##### A. Test Suites: Summary [All passed]
